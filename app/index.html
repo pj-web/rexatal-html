@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body style="padding: 80px 0;">
+    <div class="btn">
+        <a href="#speaker" class="fancybox" target="_self"
+            rel="noopener">Заказать</a>
+    </div>
+    <div style="display: block;">
+        <div id="speaker" class="speaker">
+            <div class="speaker__body">
+                <div class="speaker__columns">
+                    <div class="speaker__column">
+                        <img src="https://rexatal.ru/wp-content/uploads/2022/04/rexatal-small-transparent.webp" alt="Заказать рексатал" class="wp-image-192 aligncenter size-full"/>
+                    </div>
+                    <div class="speaker__column">
+                        <div class="speaker__text">
+                            Оставьте заявку сейчас
+                        </div>
+                        <div class="speaker__title">
+                            и получите Рексатал всего за 147 руб.*
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker__order">
+                    <form id="orderly" class="speaker__form" action="https://rexatal.ru/order.php" method="POST">
+                        <input name="name" required="" type="text" placeholder="Имя">
+                        <input name="phone" required="" type="tel" placeholder="Телефон">
+                        <button class="speaker__form-button" type="submit">Заказать</button>
+                    </form>
+                </div>
+                <div class="speaker__disclamer">
+                    * - при заказе курса.
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <div class="speaker-main" style="display: none;">
+        <span>Заказать Blue Wizard за 99р или бесплатную консультацию </span>
+        <form id="orderly" class="landkonsult" action="https://rexatal.ru/order.php" method="POST">
+            <input name="name" required="" type="text" placeholder="Имя">
+            <input name="phone" required="" type="tel" placeholder="Телефон">
+            <button class="btn-clculul" type="submit">Проконсультироваться
+                или заказать</button></form>
+    </div>
+    <!-- <div class="text-konfigure">
+        <span class="txt-konfid">Конфиденциально.
+            Круглосуточно.</span></div> -->
+</body>
+
+</html>
